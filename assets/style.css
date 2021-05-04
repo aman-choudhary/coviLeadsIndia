@@ -1,0 +1,125 @@
+
+body {
+  background-color: #ffffff;
+  margin: 3%;,
+  position: relative;
+}
+
+.card_container {
+  border-radius: 5px;
+  background-color: #ffffff;
+  margin: 3px;
+  padding: 5px;
+  position: relative;
+}
+
+.create_container {
+  background-color: #ffffff;
+  margin: 7px;
+  padding: 7px;
+  position: relative;
+  width: 100%;
+}
+
+.create_container1 {
+  background-color: #ffffff;
+  margin: 7px;
+  padding: 7px;
+  position: relative;
+  width: 100%
+}
+
+
+.dcc_compon {
+  margin: 0;
+  padding: 5px;
+  width: calc(100%-40px);
+}
+
+.fix_label {
+font-size: 20px;
+  margin: 0;
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  width: calc(100% - 40px);
+}
+
+.flex-display {
+  display: flex;
+  margin-left:10px;
+}
+
+.container-display {
+  display: flex;
+}
+
+#header {
+  align-items: center;
+}
+
+#refresh-data {
+  text-align: center;
+  height: 100%;
+  padding: 0 20px;
+  text-transform: none;
+  font-size: 20px;
+  float: right;
+  margin-right: 10px;
+  margin-top: 30px;
+}
+
+#title {
+  text-align: center;
+}
+
+#title1 {
+  text-align: center;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.Select-control,
+.Select-menu-outer,
+.Select-multi-value-wrapper,
+.select-up,
+.is-open
+.Select-control {
+  background-color: white;
+  color: black;
+}
+
+.Select-control{
+  border: 0.5px solid white;
+}
+
+.has-value.Select--single>.Select-control .Select-value .Select-value-label,
+.has-value.is-pseudo-focused.Select--single>.Select-control .Select-value .Select-value-label {
+  color: grey;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px !important;
+  display: block !important;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: white !important;
+  border-radius: 10px !important;
+  display: block !important;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black !important;
+}
